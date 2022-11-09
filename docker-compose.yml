@@ -1,0 +1,12 @@
+version: '3'
+services:
+    ngrok:
+        image: ngrok/ngrok:3.0.3-debian
+        environment:
+            - NGROK_AUTHTOKEN=$NGROK_AUTHTOKEN
+        command: $NGROK_COMMAND
+  
+
+
+
+    
